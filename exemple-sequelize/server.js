@@ -34,7 +34,7 @@ app.use(cors());
 app.use(express.json());
 
 // Configuració de Swagger per la documentació de l'API
-app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpecs));
+app.use('/api-documentacio', swaggerUi.serve, swaggerUi.setup(swaggerSpecs));
 
 /**
  * Middleware de logging personalitzat
